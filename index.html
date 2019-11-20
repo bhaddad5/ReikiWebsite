@@ -1,0 +1,172 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+<title>W3.CSS Template</title>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Lato">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<style>
+	body {
+		font-family: "Lato", sans-serif
+	}
+
+	.mySlides {
+		display: none
+	}
+
+	p{font-size:20px; color:#555;}
+  .Sans-Serif{font-family:Verdana,Arial,Helvetica,sans-serif;} 
+  .fantasy{font-family:Papyrus,fantasy;}   
+  .Serif{font-family:"Times New Roman",Times,serif;} 
+</style>
+<body class="w3-black">
+
+	<!-- Navbar -->
+	<div class="w3-top">
+		<div class="w3-bar w3-black w3-card">
+			<a class="w3-bar-item w3-button w3-padding-large w3-hide-medium w3-hide-large w3-right" href="javascript:void(0)" onclick="myFunction()" title="Toggle Navigation Menu"><i class="fa fa-bars"></i></a>
+			<a href="#" class="w3-bar-item w3-button w3-padding-large">HOME</a>
+			<a href="#reiki" class="w3-bar-item w3-button w3-padding-large w3-hide-small">ABOUT REIKI</a>
+			<a href="#me" class="w3-bar-item w3-button w3-padding-large w3-hide-small">ABOUT ME</a>
+			<a href="#peticularly" class="w3-bar-item w3-button w3-padding-large w3-hide-small">PETICULARLY PERFECT</a>
+			<a href="#signup" class="w3-bar-item w3-button w3-padding-large w3-hide-small">BOOKING</a>
+			<a href="#contact" class="w3-bar-item w3-button w3-padding-large w3-hide-small">CONTACT</a>
+		</div>
+	</div>
+
+	<!-- Navbar on small screens (remove the onclick attribute if you want the navbar to always show on top of the content when clicking on the links) -->
+	<div id="navDemo" class="w3-bar-block w3-black w3-hide w3-hide-large w3-hide-medium w3-top" style="margin-top:46px">
+		<a href="#reiki" class="w3-bar-item w3-button w3-padding-large" onclick="myFunction()">ABOUT REIKI</a>
+		<a href="#me" class="w3-bar-item w3-button w3-padding-large" onclick="myFunction()">ABOUT ME</a>
+		<a href="#peticularly" class="w3-bar-item w3-button w3-padding-large" onclick="myFunction()">PETICULARLY PERFECT</a>
+		<a href="#signup" class="w3-bar-item w3-button w3-padding-large" onclick="myFunction()">BOOKING</a>
+		<a href="#contact" class="w3-bar-item w3-button w3-padding-large" onclick="myFunction()">CONTACT</a>
+	</div>
+
+	<!-- Home -->
+	<div class="w3-content" style="max-width:2000px;margin-top:46px">
+		<div style="width: 100%; display: table;">
+			<div class="w3-row w3-padding-32">
+				<div class="w3-col m6 w3-large w3-margin-bottom">
+					<div class="w3-container w3-content w3-center" style="max-width:800px">
+						<h1 class="w3-wide fantasy">FUREVER</h1>
+						<h1 class="w3-wide fantasy">REIKI</h1>
+						<p class="w3-opacity"><i>Holistic medicine for your pet</i></p>
+						<h3 class="w3-wide w3-center">Book Appointments:</h3>
+						<button class="w3-button w3-white w3-margin-bottom" onclick="window.location.href = 'https://0225peticularlyperfect.petsoftware.net/clientportal/login';">Login</button>
+						<button class="w3-button w3-white w3-margin-bottom" onclick="window.location.href = 'https://0225peticularlyperfect.petsoftware.net/clientportal/register';">Register</button>
+					</div>
+				</div>
+				<div class="w3-col m6">
+					<img src="dog-trans.png" class="w3-image">
+				</div>
+			</div>
+		</div>
+
+		<!-- About Reiki -->
+		<div class="w3-content" id="reiki">
+			<div class="w3-row w3-padding-32">
+				<div class="w3-half">
+					<img src="reiki-dogs.jpg" class="w3-image" style="width:500px;height:700px;">
+				</div>
+				<div class="w3-half w3-large">
+					<div class="w3-container w3-content">
+						<h2 class="w3-wide w3-center fantasy">About Reiki</h2>
+						<blockquote class="w3-opacity">
+							Animal reiki is a compassionate, meditative space that allows for healing.  It is non-invasive, yet still very powerful, and can help heal physical, emotional, and spiritual problems an animal may be going through.
+						</blockquote>
+						<blockquote class="w3-opacity">
+							Furever Reiki follows the Let Animals Lead Approach, developed by Kathleen Prasaad, as well as the Animal Reiki Practitioner Code of Ethics.  This approach was founded upon traditional Japanese reiki techniques and principals, but with a few differences to allow for animals.  First and foremost, animals are viewed as equal partners in the healing process, and nothing is done without their consent.  In traditional human reiki, touch is common; however, in animal reiki, touch is not used unless the animal seeks it out.  Finally, permission is always asked of them before a session is started, and the healing space is there for them to join if they so choose.  It is not done <i>to</i> them, it is done <i>with</i> them.
+						</blockquote>
+					</div>
+				</div>
+			</div>
+		</div>
+
+		<!-- About Me -->
+		<div class="w3-content" id="me">
+			<div class="w3-row w3-padding-32">
+				<div class="w3-col m6 w3-large w3-margin-bottom">
+					<div class="w3-container w3-content" style="max-width:800px">
+						<h2 class="w3-wide w3-center fantasy">About Me</h2>
+						<blockquote class="w3-opacity">
+							Deanna has had a lifelong passion for animals.  Starting at a young age, she began volunteering at a local shelter, and as she got older her love for them continued to grow.  With aspirations to become a veterinarian, she started college in 2014 only to leave due to chronic health issues a year and a half later.  After a long battle with her health, she finally found her footing again, and became a professional pet sitter with a small company called Peticularly Perfect.  That was when she also began to explore the world of animal reiki.  In mid-2019, she got her certification after studying with the renowned animal reiki practitioner Kathleen Prasaad.
+						</blockquote>
+					</div>
+				</div>
+				<div class="w3-col m6">
+					<img src="deanna.jpg" class="w3-image" style="width:500px;height:700px;">
+				</div>
+			</div>
+		</div>
+
+		<!-- About Peticularly Perfect -->
+		<div class="w3-content" id="peticularly">
+			<div class="w3-row w3-padding-32">
+				<div class="w3-col m6">
+					<img src="cat-trans.png" class="w3-image">
+				</div>
+				<div class="w3-col m6 w3-large w3-margin-bottom">
+					<div class="w3-container w3-content" style="max-width:800px">
+						<h2 class="w3-wide w3-center fantasy">Peticularly Perfect</h2>
+						<blockquote class="w3-opacity">
+							Peticularly Perfect is a small pet sitting company based out of Escondido, California that serves almost all of North County.  Deanna became a professional pet sitter with them in November of 2018, and has since partnered Furever Reiki with them.  They provide dog walking services, overnight stays, twenty-four hour in-home pet care, pet boarding, and dog training.
+						</blockquote>
+						<div class="w3-center">
+							<button class="w3-button w3-center w3-white w3-margin-bottom" onclick="window.location.href = 'https://peticularlyperfect.com/';">Peticularly Perfect</button>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+
+		<!-- Signup -->
+		<div class="w3-content" id="signup">
+			<div class="w3-container w3-content" style="max-width:800px">
+				<h2 class="w3-wide w3-center fantasy">Booking</h2>
+				<div class="w3-large w3-margin-bottom">
+					<blockquote class="w3-opacity">
+						Animals are always most comfortable in their own homes, and comfort is a big part of the healing process.  Therefore, Furever Reiki sessions exclusively take place in client homes.  The duration and frequency of visits all depend on the needs of the individual pet.
+					</blockquote>
+					<blockquote class="w3-opacity">
+						Furever Reiki uses an external system called Pet Sitting Plus (PSP) for billing, scheduling, and client information.  This system is used in conjunction with Peticularly Perfect, and their services as well as Furever Reiki’s can be obtained there.  If you are a new client, please click “Register”; if you are a returning client for either of our services, please click “Log In”.  Please note that all first visits for Furever Reiki will be consults.
+					</blockquote>
+					<div class="w3-center">
+						<button class="w3-button w3-white w3-margin-bottom" onclick="window.location.href = 'https://0225peticularlyperfect.petsoftware.net/clientportal/login';">Login</button>
+						<button class="w3-button w3-white w3-margin-bottom" onclick="window.location.href = 'https://0225peticularlyperfect.petsoftware.net/clientportal/register';">Register</button>
+					</div>
+				</div>
+			</div>
+		</div>
+
+
+
+		<!-- End Page Content -->
+	</div>
+
+	<!-- Footer -->
+	<footer class="w3-container w3-center w3-opacity w3-light-grey" id="contact">
+		<div class="w3-padding-16">
+			<h2 class="w3-wide w3-center">CONTACT</h2>
+			<i class="fa fa-map-marker" style="width:30px"></i> North County, San Diego<br>
+			<i class="fa fa-phone" style="width:30px"></i> Phone: ###-###-####<br>
+			<i class="fa fa-envelope" style="width:30px"> </i> Email: mail@mail.com<br>
+		</div>
+
+	</footer>
+
+	<script>
+		// Used to toggle the menu on small screens when clicking on the menu button
+		function myFunction() {
+			var x = document.getElementById("navDemo");
+			if (x.className.indexOf("w3-show") == -1) {
+				x.className += " w3-show";
+			} else {
+				x.className = x.className.replace(" w3-show", "");
+			}
+		}
+	</script>
+
+</body>
+</html>
